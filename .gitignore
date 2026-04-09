@@ -1,0 +1,16 @@
+# Dev dependencies
+node_modules/
+
+# Dev scripts & previews
+screenshot*.mjs
+detect-font.mjs
+preview*.png
+Screenshot*.png
+Gemini_Generated_Image*.png
+
+# OS files
+.DS_Store
+
+# Package files (dev only)
+package.json
+package-lock.json
