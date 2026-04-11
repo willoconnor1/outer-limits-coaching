@@ -6,7 +6,9 @@ screenshot*.mjs
 detect-font.mjs
 preview*.png
 Screenshot*.png
-Gemini_Generated_Image*.png
+# Keep hero bg image, exclude other Gemini images
+Gemini_Generated_Image_kgeuk2kgeuk2kgeu.png
+Gemini_Generated_Image_t8xxuht8xxuht8xx.png
 
 # OS files
 .DS_Store
