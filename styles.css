@@ -1255,7 +1255,13 @@ img {
 
   .photo-collage {
     columns: 2;
-    padding: 0;
+    column-gap: 8px;
+    padding: 0 24px;
+  }
+
+  .photo-collage img {
+    margin-bottom: 8px;
+    border-radius: 8px;
   }
 
   /* Contact */
@@ -1369,9 +1375,16 @@ img {
     height: 55px;
   }
 
-  /* Photo collage: single column */
+  /* Photo collage: keep 2-col collage with margins */
   .photo-collage {
-    columns: 1;
+    columns: 2;
+    column-gap: 6px;
+    padding: 0 16px;
+  }
+
+  .photo-collage img {
+    margin-bottom: 6px;
+    border-radius: 6px;
   }
 
   /* Contact */
